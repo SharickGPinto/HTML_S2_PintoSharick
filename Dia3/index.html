@@ -6,15 +6,15 @@
     <title>Formulario de registro - Mi web</title>
 </head>
 <body>
+<h1>Formulario de registro - Mi web</h1>
+   <form action="" method="post">
 
-   <form>
-
-    <label for="name">Nombres</label>
-    <input type="Nombres">
+    <label for="name">Nombres</label> 
+    <input type="Nombres" maxlength="50">
     <br>
 
     <label for="name">Apellidos</label>
-    <input type="Apellidos">
+    <input type="Apellidos" maxlength="50">
     <br>
 
     <select name="Sexo" >
@@ -25,8 +25,15 @@
 
     <label for="name">Correo</label>
     <input type="Correo">
-    <br>
-    
+
+    <h3>
+    <label for="opciones"></label>
+    <input type="checkbox" name="Casilla de verificación" id="">Deseo recibir información sobre novedades y ofertas <br>
+    <input type="checkbox" name="Casilla de verificación" id="">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos 
+    </h3>
+
+    <button type="submit">Enviar</button>
+
    </form> 
 
 
