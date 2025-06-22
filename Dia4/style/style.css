@@ -67,10 +67,10 @@ position: absolute;
 }
 
 .login{
-top: 66px;
+top: 69px;
 left: 1695px;
 width: 70px;
-height: 20px;
+height: 30px;
 border-radius: 52px 52px 52px 52px;
 background: transparent url('/Dia4/img/Login.svg') 0% 0% no-repeat padding-box;
 opacity: 1;
@@ -156,4 +156,64 @@ background-color: #FFFFFF;
     background: transparent url('/Dia4/img/tvazul.PNG') 0% 0% no-repeat padding-box;
     position: absolute;
     
+}
+
+.grupo3{
+top: 1699px;
+    left: 64px;
+    width: 1792px;
+    height: 767px;
+    border-radius: 108px 108px 108px 108px;
+    background-color: #00A8E1;
+    position: absolute;  
+}
+
+.grupo4{
+      top: 1680px;
+    left: 400px;
+    width: 1200px;
+    height: 60px;
+    color: #FFFFFF;
+    font-size: 60px;
+    text-align: left;
+    position: absolute; 
+}
+
+.peliculas{
+      left: 300px;
+      width: 510px;
+      top: 220px;
+      height: 180px;
+      background: url(/Dia4/img/peliculas.PNG);
+      position: absolute;
+}
+
+.grupo5{
+          top: 2500px;
+    left: 64px;
+    width: 1792px;
+    height: 567px;
+    border-radius: 108px 108px 108px 108px;
+    background-color: #00A8E1;
+    position: absolute;
+}
+
+.grupo6{
+      top: 2500px;
+    left: 400px;
+    width: 1200px;
+    height: 60px;
+    color: #FFFFFF;
+    font-size: 60px;
+    text-align: left;
+    position: absolute; 
+}
+
+.x{
+      top: 200px;
+    left: 400px;
+    width: 170px;
+    height: 169px;
+      background: url(/Dia4/img/Icon\ metro-cancel.svg);
+      position: absolute;
 }
