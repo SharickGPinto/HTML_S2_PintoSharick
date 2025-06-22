@@ -40,3 +40,30 @@ p {
       font-family: 'AmazonEmber', sans-serif;
       font-weight: light;
 }
+
+header{
+      background: transparent url('FondoTwitch.png') 0% 0% no-repeat padding-box;
+      top: 0px;
+      left: 0px;
+      width: 1920px;
+      height: 1080px;
+}
+
+.Imagen_superior{
+
+      position: absolute;
+      top: 0%;
+      right: 0%;
+}
+
+.Prime_E{
+      top: 227px;
+      left: 682px;
+      width: 556px;
+      height: 313px;
+}
+
+.sign-Up{
+      position: absolute;
+      width: 300px;
+}
