@@ -1,4 +1,42 @@
 
-body{
-      background-image: url(FondoTwitch.png)
+*{
+      margin: 0%;
+      padding: 0%;
+      box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'AmazonEmber';
+    src: url('Ember/AmazonEmber_Rg.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AmazonEmber';
+    src: url('Ember/AmazonEmber_Bd.ttf') format('truetype');
+    font-weight: bold; 
+    font-style: normal;
+}
+@font-face {
+    font-family: 'AmazonEmber'; 
+    src: url('Ember/AmazonEmber_Lt.ttf') format('truetype'); 
+    font-weight: light; 
+    font-style: normal;
+}
+
+p {
+  font-family: 'AmazonEmber', sans-serif;
+  font-weight: normal; 
+}
+
+.parrafo-bold {
+    
+  font-family: 'AmazonEmber', sans-serif;
+      font-weight: bold;
+}
+
+.parrafo-light {
+      font-family: 'AmazonEmber', sans-serif;
+      font-weight: light;
 }
