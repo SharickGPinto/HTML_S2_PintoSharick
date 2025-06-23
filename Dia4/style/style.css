@@ -1,3 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    position: relative;
+}
 
 @font-face {
     font-family:'AmazonEmber';
@@ -40,11 +50,11 @@ p {
       left: 2px;
       width: 1918px;
       height: 4149px;
-      background: transparent url('img/Path 1.png') 0% 0% no-repeat padding-box;
+      background: transparent url('/Dia4/img/Path\ 1.svg') 0% 0% no-repeat padding-box;
       border: 1px solid #707070;
       opacity: 1;
       background: url(/Dia4/img/Path\ 1.svg) 0% 0% no-repeat padding-box;
-      position: absolute;
+      position: fixed;
 }
 
 .fondo_principal{
@@ -52,7 +62,7 @@ p {
       left: 0px;
       width: 1920px;
       height: 1080px;
-      background: transparent url('/Dia4/img/FondoTwitch.png') 0% 0% no-repeat padding-box;
+      background: url('/Dia4/img/FondoTwitch.png') 0% 0% no-repeat padding-box;
       opacity: 0.35;
        border: 1px solid #707070;
 }
