@@ -241,3 +241,12 @@ top: 1699px;
     font-family: 'Amazon Ember', Light;
     line-height: 36px;
 }
+
+.grupo9{
+      background: url(/Dia4/img/dispos.PNG);
+      top: 3590px;
+    left: 450px;
+    width: 810px;
+    height: 260px;
+     position: absolute;
+}
