@@ -50,10 +50,10 @@ p {
       left: 2px;
       width: 1918px;
       height: 4149px;
-      background: transparent url('../Dia4/img/Path\ 1.svg') 0% 0% no-repeat padding-box;
+      background: transparent url('./../img/Path\ 1.svg') 0% 0% no-repeat padding-box;
       border: 1px solid #707070;
       opacity: 1;
-      background: url('../Dia4/img/Path\ 1.svg') 0% 0% no-repeat padding-box;
+      background: url('./../img/Path\ 1.svg') 0% 0% no-repeat padding-box;
       position: fixed;
 }
 
@@ -62,7 +62,7 @@ p {
       left: 0px;
       width: 1920px;
       height: 1080px;
-      background: url('../Dia4/img/FondoTwitch.png') 0% 0% no-repeat padding-box;
+      background: url('./../img/FondoTwitch.png') 0% 0% no-repeat padding-box;
       opacity: 0.35;
        border: 1px solid #707070;
 }
@@ -71,7 +71,7 @@ p {
 left: 63px;
 width: 36px;
 height: 36px;
-background: transparent url('../Dia4/img/Icon\ awesome-search.svg') 0% 0% no-repeat padding-box;
+background: transparent url('./../img/Icon\ awesome-search.svg') 0% 0% no-repeat padding-box;
 opacity: 1;
 position: absolute;
 }
@@ -79,10 +79,10 @@ position: absolute;
 .login{
 top: 69px;
 left: 1695px;
-width: 70px;
-height: 30px;
+width: 80px;
+height: 50px;
 border-radius: 52px 52px 52px 52px;
-background-image: url('../Dia4/img/Path\ 1.svg') 0% 0% no-repeat padding-box;
+background-image: url('./../img/Path\ 1.svg') 0% 0% no-repeat padding-box;
 opacity: 1;
 background-color: white;
 position: absolute;
@@ -95,7 +95,7 @@ top: 227px;
 left: 682px;
 width: 556px;
 height: 313px;
-background:transparent url('../Dia4/img/LogoPrimeE2.png') 0% 0% no-repeat padding-box;
+background:transparent url('./../img/LogoPrimeE2.png') 0% 0% no-repeat padding-box;
 position: absolute;
 opacity: 1;
 }
@@ -163,7 +163,7 @@ background-color: #FFFFFF;
     left: 500px;
     width: 280px;
     height: 309px;
-    background: transparent url('../Dia4/img/tvazul.PNG') 0% 0% no-repeat padding-box;
+    background: transparent url('./../img/tvazul.PNG') 0% 0% no-repeat padding-box;
     position: absolute;
     
 }
@@ -194,7 +194,7 @@ top: 1699px;
       width: 510px;
       top: 220px;
       height: 180px;
-      background: url('../Dia4/img/peliculas.PNG');
+      background: url('./../img/peliculas.PNG');
       position: absolute;
 }
 
@@ -224,7 +224,7 @@ top: 1699px;
     left: 400px;
     width: 170px;
     height: 169px;
-      background: url('../Dia4/img/Icon\ metro-cancel.svg');
+      background: url('./../img/Icon\ metro-cancel.svg');
       position: absolute;
 }
 
@@ -253,7 +253,7 @@ top: 1699px;
 }
 
 .grupo9{
-      background: url('../Dia4/img/dispos.PNG');
+      background: url('./../img/dispos.PNG');
       top: 3590px;
     left: 450px;
     width: 810px;
