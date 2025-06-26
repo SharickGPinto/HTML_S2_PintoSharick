@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    position: relative;
+}
+
+.fondo{
+    top: 0px;
+    left: 0px;
+    width: 884px;
+    height: 497px;
+    background-color: rgb(189, 95, 95);
+    position: absolute;
+ 
+}
+
+.LogoM{
+    top: 0px;
+    left: 0px;
+    width: 150px;
+    height: 44px;
+    background: transparent url(./../img/Metrolinea.PNG);
+    opacity: 1;
+    position: absolute;
+}
+
+.comprartarjeta{
+    top: 15px;
+    left: 450px;
+    width: 150px;
+    height: 44px;
+    opacity: 1;
+    position: absolute;
+}
+
+.ver{
+    top: 15px;
+    left: 580px;
+    width: 150px;
+    height: 44px;
+    opacity: 1;
+    position: absolute;  
+}
+
+.lupa{
+    top: 5px;
+    left: 650px;
+    width: 30px;
+    height: 44px;
+    background: transparent url(./../img/LupaM.PNG);
+    opacity: 1;
+    position: absolute; 
+}
+
+.carro{
+    top: 5px;
+    left: 700px;
+    width: 30px;
+    height: 44px;
+    background: transparent url(./../img/ShopM.PNG);
+    opacity: 1;
+    position: absolute; 
+}
+
+.tarjeta{
+    top: 120px;
+    left: 250px;
+    width: 250px;
+    height: 150px;
+    background: transparent url(./../img/tarjeta_metrolinea.PNG);
+    opacity: 1;
+    position: absolute;
+}
+
+.texto1{
+    top: 350px;
+    left: 50px;
+    width: 750px;
+    height: 180px;
+    font-size: 30px;
+    position: absolute;
+    line-height: 36px;
+}
+
+.precio{
+    top: 380px;
+    left: 50px;
+    width: 450px;
+    height: 180px;
+    font-size: 20px;
+    position: absolute;
+    line-height: 36px;
+}
