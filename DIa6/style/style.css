@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body{
+    overflow: hidden;
+    position: relative;
+}
+
+.fondo{
+    top: 0px;
+    left: 2px;
+    width: 1918px;
+    height: 4149px;
+    background-color: black;
+    opacity: 1;
+    position: absolute;
+}
+
+.logo{
+    top: 0px;
+    left: 130px;
+    width: 1918px;
+    height: 4149px;
+    color: white;
+    position: absolute;
+}
+
+.home{
+    top: 0px;
+    left: 470px;
+    width: 1918px;
+    height: 4149px;
+    color: white;
+    position: absolute;
+}
+
+.about{
+    top: 0px;
+    left: 530px;
+    width: 1918px;
+    height: 4149px;
+    color: white;
+    position: absolute;
+}
+
+.menu{
+    top: 0px;
+    left: 590px;
+    width: 1918px;
+    height: 4149px;
+    color: white;
+    position: absolute; 
+}
+
+.contact{
+    top: 0px;
+    left: 650px;
+    width: 1918px;
+    height: 4149px;
+    color: white;
+    position: absolute; 
+}
