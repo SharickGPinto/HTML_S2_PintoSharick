@@ -21,7 +21,7 @@ body{
 
 .logo{
     top: 0px;
-    left: 130px;
+    left: 80px;
     width: 1918px;
     height: 4149px;
     color: white;
@@ -62,4 +62,25 @@ body{
     height: 4149px;
     color: white;
     position: absolute; 
+}
+
+.texto1{
+    top: 80px;
+    left: 150px;
+    width: 1918px;
+    height: 4149px;
+    color: white;
+    position: absolute; 
+    font-size: 50px;  
+}
+
+.cafe1{
+    top: 200px;
+    left: 200px;
+    width: 200px;
+    height: 200px;
+    background: transparent url('./../img/3.png');
+    position: relative; 
+    opacity: 1;
+    background-size: cover;
 }
