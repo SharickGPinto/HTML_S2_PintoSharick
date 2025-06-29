@@ -66,7 +66,7 @@ body{
 
 .texto1{
     top: 80px;
-    left: 150px;
+    left: 130px;
     width: 1918px;
     height: 4149px;
     color: white;
@@ -83,4 +83,69 @@ body{
     position: relative; 
     opacity: 1;
     background-size: cover;
+}
+
+.texto2{
+    top: 500px;
+    left: 120px;
+    width: 1918px;
+    height: 4149px;
+    color: white;
+    position: absolute; 
+    font-size: 50px;  
+}
+
+.shop{
+    top: 580px;
+    left: 260px;
+    width: 120px;
+    height: 41px;
+    color: black;
+    position: absolute; 
+    font-size: 20px; 
+    background-color: darkgoldenrod;
+    text-align: center;
+    align-content: center;
+}
+
+.cafe2{
+    top:  650px;
+    left: -40px;
+    width: 270px;
+    height: 250px;
+    background: transparent url(./../img/pexels-chitokan-2183027-removebg-preview.png);
+    position: relative;
+    opacity: 1;
+    background-size: cover;
+}
+
+.titulo2{
+    top:  900px;
+    left: 630px;
+    width: 430px;
+    height: 150px;
+    position: absolute;
+    color: white;
+    font-size: 60px;
+}
+
+.texto3{
+    top: 980px;
+    left: 630px;
+    width: 540px;
+    height: 150px;
+    position: absolute;
+    color: white;
+    font-size: 20px;
+}
+
+.learn{
+    top: 1060px;
+    left: 630px;
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    background-color: darkgoldenrod;
+    text-align: center;
+    align-content: center;
 }
