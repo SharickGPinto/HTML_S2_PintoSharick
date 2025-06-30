@@ -199,3 +199,45 @@ body{
     color: white;
     font-size: 60px;
 }
+
+table,
+th,
+td{
+    border: 2px solid darkgoldenrod;
+    border-collapse: collapse;
+}
+
+.mocha{
+    top: 2000px;
+    left: 100px;
+    width: 680px;
+    height: 400px;
+    position: absolute;
+    color: white;
+    background-size: cover;
+    text-align: center;
+    align-content: center;
+}
+
+.more{
+    top: 500px;
+    left: 110px;
+    width: 180px;
+    height: 40px;
+    position: absolute;
+    background-color: darkgoldenrod;
+    color: black;
+    text-align: center;
+    align-content: center;
+}
+
+.cafe4{
+    top: -60px;
+    left: 90px;
+    width: 210px;
+    height: 210px;
+    background: transparent url(./../img/1.png);
+    position: absolute;
+    background-size: cover;
+    opacity: 1;
+}
