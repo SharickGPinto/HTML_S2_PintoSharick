@@ -26,8 +26,21 @@ body{
     height: 4149px;
     color: white;
     position: absolute;
-    font-size: 50px; 
+    font-size:50px; 
+    background-color: black;
+    color: white;
 }
+.logo button{
+    background-color: black ;
+    font-size: 40px;
+    color: white;
+    border: 0;
+}
+
+.logo button:hover{
+    text-decoration: underline white;
+}
+
 
 .home{
     top: 0px;
@@ -37,6 +50,17 @@ body{
     color: white;
     position: absolute;
     font-size: 50px; 
+}
+
+.home button{
+    background-color: black;
+    font-size: 40px;
+    color: white;
+    border: 0;
+}
+
+.home button:hover{
+    text-decoration: underline white; 
 }
 
 .about{
@@ -49,6 +73,17 @@ body{
     font-size: 50px; 
 }
 
+.about button{
+    background-color: black;
+    font-size: 40px;
+    color: white;
+    border: 0;
+}
+
+.about button:hover{
+    text-decoration: underline white; 
+}
+
 .menu{
     top: 0px;
     left: 790px;
@@ -59,6 +94,16 @@ body{
     font-size: 50px; 
 }
 
+.menu button{
+    background-color: black;
+    font-size: 40px;
+    color: white;
+    border: 0;
+ 
+}
+.menu button:hover{
+    text-decoration: underline white; 
+}
 .contact{
     top: 0px;
     left: 950px;
@@ -69,6 +114,16 @@ body{
     font-size: 50px; 
 }
 
+.contact button{
+    background-color: black;
+    font-size: 40px;
+    color: white;
+    border: 0;
+}
+
+.contact button:hover{
+    text-decoration: underline white ;
+}
 .texto1{
     top: 150px;
     left: 400px;
