@@ -26,7 +26,21 @@ body{
     height: 4149px;
     color: white;
     position: absolute;
+    font-size:50px; 
+    background-color: black;
+    color: white;
 }
+.logo button{
+    background-color: black ;
+    font-size: 40px;
+    color: white;
+    border: 0;
+}
+
+.logo button:hover{
+    text-decoration: underline white;
+}
+
 
 .home{
     top: 0px;
@@ -35,50 +49,96 @@ body{
     height: 4149px;
     color: white;
     position: absolute;
+    font-size: 50px; 
+}
+
+.home button{
+    background-color: black;
+    font-size: 40px;
+    color: white;
+    border: 0;
+}
+
+.home button:hover{
+    text-decoration: underline white; 
 }
 
 .about{
     top: 0px;
-    left: 530px;
+    left: 630px;
     width: 1918px;
     height: 4149px;
     color: white;
     position: absolute;
+    font-size: 50px; 
+}
+
+.about button{
+    background-color: black;
+    font-size: 40px;
+    color: white;
+    border: 0;
+}
+
+.about button:hover{
+    text-decoration: underline white; 
 }
 
 .menu{
     top: 0px;
-    left: 590px;
+    left: 790px;
     width: 1918px;
     height: 4149px;
     color: white;
     position: absolute; 
+    font-size: 50px; 
 }
 
+.menu button{
+    background-color: black;
+    font-size: 40px;
+    color: white;
+    border: 0;
+ 
+}
+.menu button:hover{
+    text-decoration: underline white; 
+}
 .contact{
     top: 0px;
-    left: 650px;
+    left: 950px;
     width: 1918px;
     height: 4149px;
     color: white;
     position: absolute; 
+    font-size: 50px; 
 }
 
+.contact button{
+    background-color: black;
+    font-size: 40px;
+    color: white;
+    border: 0;
+}
+
+.contact button:hover{
+    text-decoration: underline white ;
+}
 .texto1{
-    top: 80px;
-    left: 130px;
+    top: 150px;
+    left: 400px;
     width: 1918px;
     height: 4149px;
     color: white;
     position: absolute; 
-    font-size: 50px;  
+    font-size: 70px;  
 }
 
 .cafe1{
-    top: 200px;
-    left: 200px;
-    width: 200px;
-    height: 200px;
+    top: 280px;
+    left: 600px;
+    width: 230px;
+    height: 230px;
     background: transparent url('./../img/3.png');
     position: relative; 
     opacity: 1;
@@ -86,18 +146,18 @@ body{
 }
 
 .texto2{
-    top: 500px;
-    left: 120px;
+    top: 600px;
+    left: 320px;
     width: 1918px;
     height: 4149px;
     color: white;
     position: absolute; 
-    font-size: 50px;  
+    font-size: 80px;  
 }
 
 .shop{
-    top: 580px;
-    left: 260px;
+    top: 780px;
+    left: 630px;
     width: 120px;
     height: 41px;
     color: black;
@@ -110,7 +170,7 @@ body{
 
 .cafe2{
     top:  650px;
-    left: -40px;
+    left: 10px;
     width: 270px;
     height: 250px;
     background: transparent url(./../img/pexels-chitokan-2183027-removebg-preview.png);
@@ -121,7 +181,7 @@ body{
 
 .titulo2{
     top:  900px;
-    left: 630px;
+    left: 610px;
     width: 430px;
     height: 150px;
     position: absolute;
@@ -131,7 +191,7 @@ body{
 
 .texto3{
     top: 980px;
-    left: 630px;
+    left: 610px;
     width: 540px;
     height: 150px;
     position: absolute;
@@ -141,7 +201,7 @@ body{
 
 .learn{
     top: 1060px;
-    left: 630px;
+    left: 610px;
     width: 150px;
     height: 40px;
     position: absolute;
