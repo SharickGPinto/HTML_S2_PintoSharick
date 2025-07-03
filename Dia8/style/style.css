@@ -40,5 +40,12 @@ body{
 
 .img2{
     grid-row-start: 1;
-     grid-row-end: 3;
+    grid-row-end: 3;
+}
+.img3{
+    grid-column: 1;
+    grid-template-columns: auto;
+}
+.img4{
+grid-column: 1 / span 3;
 }
