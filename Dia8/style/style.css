@@ -2,14 +2,75 @@
     font-family: 'Nueval';
     src: url(./../fonts/Fjalla_One/FjallaOne-Regular.ttf);
 }
+h1{
+    font-family: 'Nueval';
+    color: white;
+}
+
+h2{
+    font-family: 'Nueval';
+}
+h4{
+    font-family: 'Nueval';
+    color: white;
+}
 
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    background-color: black;
 }
 
 body{
     overflow-x: hidden;
     position: relative;
+    width:100vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1vw;
+    width: 60vw;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row > div{
+    background-color: white;
+    text-align: left;
+    padding: 3vw;
+    font-size: 2.5vw;
+}
+
+.texto1{
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+div > .texto1{
+    padding-top: 7vw;
+}
+.letra{
+    margin-top: 1vw;
+    font-size: 1vw;
+    line-height: 1vw;
+}
+
+.columnas{
+    width: 25vw;
+    height: 15vw;
+}
+
+.columna2{
+    width: 25vw;
+    height: 15vw;
 }
