@@ -1,0 +1,19 @@
+*{
+    overflow-x: hidden;
+
+}
+ body{
+    background-color: black;
+ }
+
+.columna{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.columna div{
+    text-align: center;
+    padding: 10vw;
+    font-size: 30vw;
+
+}
