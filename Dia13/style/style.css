@@ -1,0 +1,52 @@
+*{
+    background-color: black;
+}
+
+
+.bernie{
+    margin: 0;
+    image-rendering: pixelated;
+    position: relative;
+    background: url(./../img/bernie.png);
+    height: 26vw;
+    width: 17vw;
+    background-size: cover;
+    bottom: 30vw;
+    animation: movimiento 25s steps(55) infinite;
+    left: 40vw;
+}
+
+@keyframes movimiento{
+    from{
+        background-position-x: 0vw;
+    }
+    to{
+        background-position-x: -1000vw;
+    }
+}
+
+.cielo{
+    margin: 0;
+    image-rendering: pixelated;
+    position: relative;
+    background: url(./../img/cielo.png);
+    height: 20vw;
+    width: 119vw;
+    background-size: cover;
+    bottom: 0vw;
+    animation: movimiento 2s steps(3) infinite;
+}
+
+.puente{
+    margin: 0;
+    image-rendering: pixelated;
+    position: relative;
+    background: url(./../img/puente.png);
+    height: 26vw;
+    width: 100vw;
+    background-size: cover;
+    bottom: 0vw;
+    animation: movimiento 2s steps(3) infinite;
+
+}
+
