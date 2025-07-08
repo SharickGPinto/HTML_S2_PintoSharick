@@ -4,24 +4,22 @@
 
 
 .bernie{
-    margin: 0;
-    image-rendering: pixelated;
     position: relative;
     background: url(./../img/bernie.png);
-    height: 26vw;
-    width: 17vw;
+    height: 200px;
+    width: 99px;
     background-size: cover;
     bottom: 30vw;
-    animation: movimiento 25s steps(55) infinite;
-    left: 40vw;
+    animation: movimiento 2s steps(5) infinite;
+    margin: auto;
 }
 
 @keyframes movimiento{
-    from{
-        background-position-x: 0vw;
+    0%{
+        background-position-x: 0px;
     }
-    to{
-        background-position-x: -1000vw;
+    100%{
+        background-position-x: 10000px;
     }
 }
 
@@ -34,7 +32,7 @@
     width: 119vw;
     background-size: cover;
     bottom: 0vw;
-    animation: movimiento 2s steps(3) infinite;
+    animation: movimiento 2s steps(4) infinite;
 }
 
 .puente{
@@ -46,7 +44,7 @@
     width: 100vw;
     background-size: cover;
     bottom: 0vw;
-    animation: movimiento 2s steps(3) infinite;
+    animation: movimiento 1s steps(3) infinite;
 
 }
 
